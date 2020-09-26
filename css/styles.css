@@ -1,10 +1,13 @@
 
 #cover {
     background-image: url(../images/GAME-WALLPAPER.jpg);
-    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    background-size: cover;
+    background-size: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 html, body {
@@ -17,43 +20,9 @@ body {
     background: linear-gradient(to right,#17161a, #242124 50% ,#17161a);
 }
 
-#buttondiv {
-    position: absolute;
-    left: 48%;
-    right: 48%;
-    top: 90%
-}
 
-.btn-lg {
-    padding: 0em;
-    margin: 0em;
-    border: 0em;
-    border-radius: 10em;
-    background-color: white;
-    color: black;
-}
 
-.btn-lg:hover {
-    background-color: black;
-    color: white;
-}
 
-.btn-lg:focus {
-    box-shadow: none;
-}
-button:focus {
-    outline: none !important; /* Remove the outline */
-}
-button.active {
-    border-style: none !important; /* Remove the border */
-}
-
-.btn-primary:not(:disabled):not(.disabled):active {
-    background-color: black;
-    color: white;
-    border-color: transparent;
-    border-style: outset;
-}
 
 .fontR {
     font-family: 'Rubik', sans-serif;
@@ -140,4 +109,27 @@ h1 {
 
   .card-img {
       border-radius: 2.25rem;
+  }
+
+  .ct-btn-scroll {
+    width: 34px;
+    height: 33px;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+    text-align: center;
+  }
+
+  a {
+      color: rgb(87, 2, 2);
+  }
+
+  a:hover {
+      color: rgb(138, 3, 3);
   }
