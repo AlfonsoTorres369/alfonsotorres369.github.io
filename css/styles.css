@@ -73,7 +73,7 @@ h1 {
 
 .card {
     border: none;
-    background-color: #1e1a1a;
+    background-color:rgba(255, 255, 255, 0.1) !important;
     border-radius: 3.25rem;
 }
 
@@ -138,5 +138,6 @@ h1 {
   }
 
   .bgp {
-      background: linear-gradient(to right, rgb(6, 5, 53), rgb(66, 2, 66), rgb(6, 5, 53)) !important;
+      
+      background: linear-gradient(to right, rgb(6, 5, 53), rgb(66, 2, 66), rgb(6, 5, 53));
   }
