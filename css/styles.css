@@ -37,6 +37,10 @@ body {
     font-size: 6vw;
 }
 
+.title2 {
+    font-size: 4vw;
+}
+
 .description {
     font-size: 3vw;
     /*padding-top: 50px;
@@ -59,9 +63,8 @@ h1 {
 
 .cntr
 {
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 
 .shadow-lg {
@@ -132,4 +135,8 @@ h1 {
 
   a:hover {
       color: rgb(138, 3, 3);
+  }
+
+  .bgp {
+      background: linear-gradient(to right, rgb(6, 5, 53), rgb(66, 2, 66), rgb(6, 5, 53)) !important;
   }
