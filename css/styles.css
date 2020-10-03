@@ -26,7 +26,7 @@ body {
 
 .fontR {
     font-family: 'Rubik', sans-serif;
-    color: white;
+    color: white !important;
 }
 
 .section {
@@ -63,7 +63,6 @@ h1 {
 
 .cntr
 {
-    text-align: center;
     justify-content: center;
 }
 
@@ -140,4 +139,20 @@ h1 {
   .bgp {
       
       background: linear-gradient(to right, rgb(6, 5, 53), rgb(66, 2, 66), rgb(6, 5, 53));
+  }
+
+  .carousel-images {
+      border-radius: 2rem;
+  }
+
+  ul {
+      color: white;
+  }
+  .cntr-text{
+      text-align: center;
+  }
+
+  .btn-danger{
+    background-color: rgb(90, 17, 5);
+    border-color: rgb(90, 17, 5);
   }
