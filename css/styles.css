@@ -49,6 +49,10 @@ body {
     text-align: center;*/
 }
 
+.description-list {
+    font-size: 2vw;
+}
+
 .fontBolder {
     font-weight: bolder;
 }
