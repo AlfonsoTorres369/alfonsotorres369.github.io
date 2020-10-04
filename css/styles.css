@@ -160,3 +160,18 @@ h1 {
     background-color: rgb(90, 17, 5);
     border-color: rgb(90, 17, 5);
   }
+
+  .justify {
+      text-align: justify;
+  }
+
+  #HomeBtn {
+      position: fixed;
+      bottom: 1rem;
+      right: 0.75rem;
+      z-index: 99;
+  }
+
+  #ProjectCard {
+      margin: 4rem;
+  }
