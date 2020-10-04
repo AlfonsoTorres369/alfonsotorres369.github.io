@@ -171,8 +171,18 @@ h1 {
       bottom: 1rem;
       right: 0.75rem;
       z-index: 99;
+      padding: 1% 1.5% !important;
   }
 
   #ProjectCard {
       margin: 4rem;
+  }
+
+  #buttonDownload {
+    max-width: 100%;
+    padding: 2% 10% !important;
+  }
+
+  .btn {
+      border-radius: 1.25rem;
   }
