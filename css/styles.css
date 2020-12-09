@@ -48,6 +48,9 @@ body {
     padding-right: 25%;
     text-align: center;*/
 }
+.textbutton {
+    font-size: 1.5vw;
+}
 
 .description-list {
     font-size: 2vw;
