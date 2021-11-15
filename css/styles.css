@@ -1,4 +1,79 @@
-/* General Nav Links */
-.text-nav-color {
-    color: gray
+/* Import font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* General style  */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.weight-100 {
+    font-weight: 100;
+}
+
+.weight-200 {
+    font-weight: 200;
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+
+#header-text {
+    font-weight: 200;
+    padding: 12px;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 2px;
+}
+
+/* Sidebar style  */
+
+.sidebar-section {
+    font-size: 22px;
+    padding-top: 16px;
+    padding-bottom: 6px;
+}
+
+.sidebar-item * {
+    color: grey;
+}
+
+.sidebar-item-selected *, .sidebar-item *:hover, .sidebar-section *:hover {
+    color: black;
+    font-weight: 400;
+}
+
+/* Image style */
+
+.image-square {
+    object-fit: cover;
+    width: 210px;
+    height: 210px;
+}
+
+/* Content style */
+
+.my-card *{
+    padding: 8px;
 }
