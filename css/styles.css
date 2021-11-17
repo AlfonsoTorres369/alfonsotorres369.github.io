@@ -76,4 +76,20 @@ li {
 
 .my-card *{
     padding: 8px;
+    color:black;
+}
+
+.my-card:hover {
+    border: black;
+    border-style:solid;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.footer-item *{
+    color:gray;
+}
+
+.footer-item *:hover {
+    color:white;
 }
