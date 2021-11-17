@@ -7,6 +7,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
+    box-sizing: border-box;
 }
 
 .weight-100 {
@@ -24,7 +25,6 @@
 .weight-400 {
     font-weight: 400;
 }
-
 
 #header-text {
     font-weight: 200;
@@ -74,22 +74,29 @@ li {
 
 /* Content style */
 
-.my-card *{
+.my-card * {
     padding: 8px;
-    color:black;
+    color: black;
+}
+
+.my-card {
+    margin: 8px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
 }
 
 .my-card:hover {
-    border: black;
-    border-style:solid;
-    border-radius: 10px;
-    border-width: 2px;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
-.footer-item *{
-    color:gray;
+.footer-item * {
+    color: gray;
 }
 
 .footer-item *:hover {
-    color:white;
+    color: white;
 }
