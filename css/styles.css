@@ -101,3 +101,23 @@ li {
 .footer-item *:hover {
     color: white;
 }
+
+/*Test purpose*/
+.border-test {
+    border-style: solid;
+}
+
+.banner {
+    width: 970px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.image-left {
+    height: 500px;
+    width: 1000px;
+}
+
+.video-trailer {
+
+}
