@@ -1,6 +1,17 @@
-/* Import font */
+/* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: EnchantedLand;
+    src: url("/fonts/Enchanted\ Land.otf") format("opentype");
+}
+/* Similar a impact (no está en google fonts) */
+
+.font-family-anton {
+    font-family: 'Anton', sans-serif;
+}
+
 /* General style  */
 
 * {
@@ -74,11 +85,12 @@ li {
 }
 
 .image-feature {
-    object-fit:scale-down;
+    object-fit: scale-down;
     max-width: 100%;
     height: auto;
-    border-radius: 4px;
+    
 }
+
 
 /* Content style */
 
@@ -110,9 +122,11 @@ li {
 }
 
 /*Test purpose*/
+
 .border-test {
     border-style: solid;
 }
+
 .banner {
     padding: 0px;
     object-fit: cover;
@@ -129,10 +143,104 @@ li {
     align-items: center;
     overflow: hidden
 }
+
 .img-container img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
+}
+
+/* Backgrounds */
+
+/* ronin-hood sisters */
+
+.rhs-background-section {
+    background-image: url("/images/Ronin-Hood\ Sisters/rhs-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    box-shadow: 2px 2px 12px black;
+    border-width: 8px;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.rhs-background-section p, .rhs-background-section h2 {
+    text-shadow: 0px 0px 7px #a60071;
+    font-weight: 500;
+    color: ivory;
+    font-family: 'Anton', sans-serif;
+}
+
+.rhs-background-section p {
+    font-size: 20px;
+}
+
+.rhs-background-section h2 {
+    font-size: 35px;
+}
+
+.game-link-rhs * {
+    color: black;
+    text-shadow: 2px 2px 4px #ec18a9;
+
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.game-link-rhs:hover * {
+    
+    color:#ec18a9;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Medieval floor */
+
+.mf-background-section {
+    background-image: url("/images/Medieval\ Floor/mf-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
+    margin-bottom: 20px;
+}
+
+.mf-background-section2 {
+    background-image: url("/images/Medieval\ Floor/mf-background2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
+    margin-bottom: 20px;
+}
+
+.mf-background-section p, .mf-background-section h2, .mf-background-section2 p, .mf-background-section2 h2 {
+    
+    font-weight: 500;
+    color: black;
+    font-family: 'EnchantedLand', sans-serif;
+}
+
+.mf-background-section p, .mf-background-section2 p {
+    font-size: 25px;
+}
+
+.mf-background-section h2, .mf-background-section2 h2 {
+    font-size: 50px;
+}
+
+.game-link-mf * {
+    color: black;
+    text-shadow: 3px 2px 6px black;
+font-size: 50px;
+    font-weight: 500;
+    font-family: 'EnchantedLand', sans-serif;
+
+}
+
+.game-link-mf:hover * {
+    
+    color:gray;
 }
 
 .game-link * {
