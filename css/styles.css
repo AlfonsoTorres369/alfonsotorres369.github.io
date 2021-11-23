@@ -1,6 +1,13 @@
-/* Import font */
+/* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* Similar a impact (no está en google fonts) */
+
+.font-family-anton {
+    font-family: 'Anton', sans-serif;
+}
+
 /* General style  */
 
 * {
@@ -74,11 +81,12 @@ li {
 }
 
 .image-feature {
-    object-fit:scale-down;
+    object-fit: scale-down;
     max-width: 100%;
     height: auto;
-    border-radius: 4px;
+    
 }
+
 
 /* Content style */
 
@@ -110,9 +118,11 @@ li {
 }
 
 /*Test purpose*/
+
 .border-test {
     border-style: solid;
 }
+
 .banner {
     padding: 0px;
     object-fit: cover;
@@ -129,8 +139,38 @@ li {
     align-items: center;
     overflow: hidden
 }
+
 .img-container img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
+}
+
+/* Backgrounds */
+
+.rhs-background-section {
+    background-image: url("/images/Ronin-Hood\ Sisters/rhs-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    box-shadow: 2px 2px 12px black;
+    border-width: 8px;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.rhs-background-section p, .rhs-background-section h2 {
+    text-shadow: 0px 0px 7px #a60071;
+    font-weight: 500;
+    color: ivory;
+    font-family: 'Anton', sans-serif;
+}
+
+.rhs-background-section p {
+    font-size: 20px;
+}
+
+.rhs-background-section h2 {
+    font-size: 35px;
 }
