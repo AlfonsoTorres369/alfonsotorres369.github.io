@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: EnchantedLand;
+    src: url("/fonts/Enchanted\ Land.otf") format("opentype");
+}
 /* Similar a impact (no está en google fonts) */
 
 .font-family-anton {
@@ -148,6 +152,8 @@ li {
 
 /* Backgrounds */
 
+/* ronin-hood sisters */
+
 .rhs-background-section {
     background-image: url("/images/Ronin-Hood\ Sisters/rhs-background.png");
     background-repeat: no-repeat;
@@ -190,6 +196,52 @@ li {
     text-shadow: 2px 2px 4px black;
 }
 
+/* Medieval floor */
+
+.mf-background-section {
+    background-image: url("/images/Medieval\ Floor/mf-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
+    margin-bottom: 20px;
+}
+
+.mf-background-section2 {
+    background-image: url("/images/Medieval\ Floor/mf-background2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
+    margin-bottom: 20px;
+}
+
+.mf-background-section p, .mf-background-section h2, .mf-background-section2 p, .mf-background-section2 h2 {
+    
+    font-weight: 500;
+    color: black;
+    font-family: 'EnchantedLand', sans-serif;
+}
+
+.mf-background-section p, .mf-background-section2 p {
+    font-size: 25px;
+}
+
+.mf-background-section h2, .mf-background-section2 h2 {
+    font-size: 50px;
+}
+
+.game-link-mf * {
+    color: black;
+    text-shadow: 3px 2px 6px black;
+font-size: 50px;
+    font-weight: 500;
+    font-family: 'EnchantedLand', sans-serif;
+
+}
+
+.game-link-mf:hover * {
+    
+    color:gray;
+}
 
 .game-link * {
     color: black;
