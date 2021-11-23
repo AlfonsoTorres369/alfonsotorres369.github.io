@@ -175,7 +175,7 @@ li {
     font-size: 35px;
 }
 
-.game-link * {
+.game-link-rhs * {
     color: black;
     text-shadow: 2px 2px 4px #ec18a9;
 
@@ -184,8 +184,18 @@ li {
 
 }
 
-.game-link:hover * {
+.game-link-rhs:hover * {
     
     color:#ec18a9;
     text-shadow: 2px 2px 4px black;
+}
+
+
+.game-link * {
+    color: black;
+    font-weight: 500;
+}
+
+.game-link:hover * {
+    color:gray;
 }
