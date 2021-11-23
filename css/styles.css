@@ -134,3 +134,12 @@ li {
     min-width: 100%;
     min-height: 100%
 }
+
+.game-link * {
+    color: black;
+    font-weight: 500;
+}
+
+.game-link:hover * {
+    color:gray;
+}
