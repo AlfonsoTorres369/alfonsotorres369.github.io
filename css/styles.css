@@ -174,3 +174,18 @@ li {
 .rhs-background-section h2 {
     font-size: 35px;
 }
+
+.game-link * {
+    color: black;
+    text-shadow: 2px 2px 4px #ec18a9;
+
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.game-link:hover * {
+    
+    color:#ec18a9;
+    text-shadow: 2px 2px 4px black;
+}
