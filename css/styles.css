@@ -13,6 +13,11 @@
     src: url("/fonts/DressCode\ BoldRound.otf") format("opentype");
     src: url("/fonts/DressCode\ MediumRound.otf") format("opentype");
 }
+@font-face {
+    font-family: FaceYourFears;
+    src: url("/fonts/DK\ Face\ Your\ Fears.ttf") format("opentype");
+}
+
 
 /* Similar a impact (no está en google fonts) */
 
@@ -271,7 +276,7 @@ li {
 
 .am-background-section {
     background: rgba(0, 5, 10, 0.9);
-    margin-top: 20px;
+    margin-top: 30px;
     border: 0.2rem solid #fff;
     border-radius: 0.8rem;
     padding: 0.4em;
@@ -287,4 +292,59 @@ li {
 .am-background-section p, .am-background-section h2{
     font-family: 'DressCode';
     color: white;
+}
+
+/* Planet simulator */ 
+
+.ps-background-section {
+    background-image: url("/images/Planet\ System\ Simulator/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.ps-background-section p {
+    color: white;
+    font-weight: 500;
+font-size: 17px;
+padding-top: 12px;
+}
+
+.ps-background-section h2{
+    
+    font-weight: 500;
+    color: #268ed7;
+}
+
+/* Zombie killer */
+
+.zk-background-section {
+    background-image: url("/images/Unity\ Zombie\ Killer/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.zk-background-section p {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.zk-background-section h2{
+    
+    font-family: 'FaceYourFears';
+    font-weight: 500;
+    font-size: 65px;
+    color: red;
+    text-shadow: 1px 1px 3px black;
 }
