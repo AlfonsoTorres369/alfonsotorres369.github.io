@@ -388,3 +388,30 @@ padding-top: 12px;
 
     color: gray;
 }
+
+/* About me style */
+.title-ab {
+    font-size: 30px;
+}
+
+.subtitled-item-ab * {
+    font-size: 20px;
+}
+
+.contact-ab {
+    font-size: 75px;
+}
+
+.cv-link * {
+    color: black;
+    text-shadow: 3px 2px 6px black;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.cv-link:hover * {
+
+    color: gray;
+}
