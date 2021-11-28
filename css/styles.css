@@ -163,6 +163,14 @@ li {
     min-height: 100%
 }
 
+.subtitled-item p {
+    margin-bottom: -0px;
+}
+
+.subtitled-item {
+    margin-bottom: 10px;
+}
+
 /* Backgrounds */
 
 /* ronin-hood sisters */
