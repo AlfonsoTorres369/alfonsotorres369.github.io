@@ -18,6 +18,15 @@
     src: url("/fonts/DK\ Face\ Your\ Fears.ttf") format("opentype");
 }
 
+.maintenance {  
+    display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .maintenance {
+        display: block !important;
+    }
+}
 
 /* Similar a impact (no está en google fonts) */
 
