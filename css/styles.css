@@ -28,6 +28,16 @@
     }
 }
 
+.maintenance-content {
+    display: block !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .maintenance-content {
+        display: none !important;
+    }
+}
+
 /* Similar a impact (no está en google fonts) */
 
 .font-family-anton {
